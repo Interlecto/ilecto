@@ -4,13 +4,15 @@ Static, bilingual (ES/EN) hub page for Interlecto, linking to its projects'
 own sites. No build step: deploy `index.html` and `styles.css` as-is.
 
 Deployment target: **https://ilecto.app/** (Cloudflare Pages), with this
-repository as the project root.
+repository as the project root. `ilecto.app`, `novenario.ilecto.app` and
+`proho.ilecto.app` are all live on Cloudflare already (some DNS records may
+still need pointing at the right site).
 
 ## Projects linked from this page
 
 | Project    | Domain                        | Repository                                             |
 | ---------- | ------------------------------ | ------------------------------------------------------- |
-| Novenario  | `https://novenario.ilecto.app/` | [Novenario](https://github.com/Interlecto/novenario) (Android app; this subdomain not deployed yet) |
+| Novenario  | `https://novenario.ilecto.app/` | [Novenario](https://github.com/chlewey/Novenario) (Android app) |
 | ProHo      | `https://proho.ilecto.app/`     | [proho](https://github.com/Interlecto/proho)             |
 
 This page evolves independently of those projects: entries are added or
