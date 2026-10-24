@@ -39,6 +39,8 @@ Thompson) that isn't used here — the page sticks to system fonts.
 | ---------- | ------------------------------ | ------------------------------------------------------- |
 | Novenario  | `https://novenario.ilecto.app/` | [Novenario](https://github.com/chlewey/Novenario) (Android app) |
 | ProHo      | `https://proho.ilecto.app/`     | [proho](https://github.com/Interlecto/proho)             |
+| Contarte   | `https://contarte.ilecto.app/`  | [Contarte](https://github.com/chlewey/Contarte) (Android app) |
+| Geo-Utils  | `https://geoutils.ilecto.app/`  | [geoutils](https://github.com/chlewey/geoutils) (Android app) |
 
 This page evolves independently of those projects: entries are added or
 removed here as projects are launched or retired, without touching their
