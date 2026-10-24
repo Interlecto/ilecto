@@ -22,6 +22,17 @@ route. `ilecto.app`'s route used to be claimed by `novenario-site` as a
 stopgap (it 301-redirected to `novenario.ilecto.app` before this page
 existed) — that route was moved to `ilecto-site` once this page shipped.
 
+## Visual identity
+
+`public/icon.svg` (and the `favicon-180.png` / `icon-32.png` / `favicon.ico`
+rasterized from it) is the Interlecto brand mark — a blue (`#3399cc`) speech
+bubble with a white "i" — recovered from
+[`root/ui/IlectoLogo.svg`](https://github.com/Interlecto/ilecto-php/blob/master/root/ui/IlectoLogo.svg)
+in the old [ilecto-php](https://github.com/Interlecto/ilecto-php) repo,
+which is also where `#3399cc` comes from (`--accent` in `styles.css`). That
+repo also has an unfinished custom logotype font ("IlectoLogo", by Carlos
+Thompson) that isn't used here — the page sticks to system fonts.
+
 ## Projects linked from this page
 
 | Project    | Domain                        | Repository                                             |
