@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es" data-lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interlecto</title>
+  <meta name="description" content="Interlecto: proyectos de software de Carlos Thompson (Chlewey). Novenario y ProHo." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Interlecto</a>
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language / Cambiar idioma">
+        <span data-lang-es>EN</span>
+        <span data-lang-en>ES</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="eyebrow" data-lang-es>Carlos Thompson (Chlewey)</p>
+      <p class="eyebrow" data-lang-en>Carlos Thompson (Chlewey)</p>
+
+      <h1 data-lang-es>Software con propósito, hecho con cuidado.</h1>
+      <h1 data-lang-en>Purposeful software, made with care.</h1>
+
+      <p class="lead" data-lang-es>
+        Interlecto reúne los proyectos de Carlos Thompson: aplicaciones y
+        plataformas pequeñas, cada una resolviendo un problema concreto.
+      </p>
+      <p class="lead" data-lang-en>
+        Interlecto brings together Carlos Thompson's projects: small
+        applications and platforms, each solving one concrete problem.
+      </p>
+    </section>
+
+    <section class="panel wrap">
+      <h2 data-lang-es>Proyectos</h2>
+      <h2 data-lang-en>Projects</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Novenario</h3>
+          <p data-lang-es>App de Android para rezar la Novena de Aguinaldos y,
+            más adelante, otras devociones navideñas tradicionales de
+            Latinoamérica. En desarrollo, con lanzamiento previsto en Google
+            Play antes de diciembre de 2026.</p>
+          <p data-lang-en>Android app for praying the Novena de Aguinaldos
+            and, later, other traditional Latin American Christmas
+            devotions. In development, targeting a Google Play release
+            before December 2026.</p>
+          <p><a href="https://novenario.ilecto.app/">novenario.ilecto.app →</a></p>
+        </article>
+        <article class="card">
+          <h3>ProHo</h3>
+          <p data-lang-es>Plataforma de administración y comunicación para
+            comunidades residenciales (propiedad horizontal): facturación,
+            contabilidad de partida doble y comunicación entre residentes.
+            En desarrollo.</p>
+          <p data-lang-en>Management and communication platform for
+            residential communities (propiedad horizontal): billing,
+            double-entry accounting, and resident communication. In
+            development.</p>
+          <p><a href="https://proho.ilecto.app/">proho.ilecto.app →</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        <span data-lang-es>Interlecto — un proyecto de</span>
+        <span data-lang-en>Interlecto — a project by</span>
+        Carlos Thompson (Chlewey)
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var toggle = document.getElementById('lang-toggle');
+      function apply(lang) {
+        root.setAttribute('data-lang', lang);
+        root.setAttribute('lang', lang);
+      }
+      toggle.addEventListener('click', function () {
+        apply(root.getAttribute('data-lang') === 'es' ? 'en' : 'es');
+      });
+      var preferred = (navigator.language || '').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+      apply(preferred);
+    })();
+  </script>
+</body>
+</html>
