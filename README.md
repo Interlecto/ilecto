@@ -42,6 +42,7 @@ Thompson) that isn't used here — the page sticks to system fonts.
 | Contarte   | `https://contarte.ilecto.app/`  | [Contarte](https://github.com/chlewey/Contarte) (Android app) |
 | Geo-Utils  | `https://geoutils.ilecto.app/`  | [geoutils](https://github.com/chlewey/geoutils) (Android app) |
 | QuickFixes | `https://quickfixes.ilecto.app/` | [quickfixes](https://github.com/chlewey/quickfixes) (Android app) |
+| Agenda Unificada | `https://agenda.ilecto.app/` | [agenda](https://github.com/Interlecto/agenda) (Android app) |
 
 This page evolves independently of those projects: entries are added or
 removed here as projects are launched or retired, without touching their
