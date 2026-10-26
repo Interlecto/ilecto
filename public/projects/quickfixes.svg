@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E93E32"/>
+      <stop offset="1" stop-color="#680C05"/>
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" rx="24" fill="url(#bg)"/>
+  <path
+      fill="#FFFFFF"
+      fill-rule="nonzero"
+      stroke="#CC99CC"
+      stroke-opacity="0.75"
+      stroke-width="1"
+      d="M 36,27 C 21,27 18,30 18,45 18,60 21,63 36,63 51,63 54,60 54,45 54,30 51,27 36,27 Z m 0,5 c 5,0 7,4 7,13 0,9 -2,13 -7,13 -5,0 -7,-4 -7,-13 0,-9 2,-13 7,-13 z m 21,-4 c 10,-1 22,1 32,0 1,10 -6,33 -18,37 L 63,59 C 76,54 77,40 77,33 70,33 67,32 57,33 Z"/>
+  <path
+      fill="#FFFFFF"
+      fill-rule="nonzero"
+      stroke="#993399"
+      stroke-opacity="0.75"
+      stroke-width="1"
+      d="m 30,60 c 2,-2 8,-6 10,-6 3,0 6,10 9,10 2,0 4,-2 5,-3 l 2,2 c -2,2 -8,6 -10,6 -3,0 -6,-10 -9,-10 -2,0 -4,2 -5,3 z M 65,43 c 9,-2 18,2 27,0 v 5 c -9,2 -18,-2 -27,0 z"/>
+  <path
+      fill="#FFD000"
+      fill-rule="nonzero"
+      stroke="#000000"
+      stroke-opacity="0.5"
+      stroke-width="0.5"
+      d="M 41,70 H 29 a 2,2 0 0 0 -2,2 v 11 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -2 h -4 v 1 h -8 v -9 h 8 v 1 h 4 v -2 a 2,2 0 0 0 -2,-2 z m 5,0 v 7 l 8,8 8,-8 v -7 h -4 v 7 l -3,3 -5,-5 v -5 z"/>
+  <path
+      fill="#D00000"
+      fill-rule="nonzero"
+      stroke="#000000"
+      stroke-opacity="0.5"
+      stroke-width="0.5"
+      d="m 67,70 a 2,2 0 0 0 -2,2 v 2 h 4 v -1 h 8 v 1 c 0,2 -12,4 -12,7 v 4 H 81 V 82 H 69 v -1 c 0,-2 12,-4 12,-7 v -2 a 2,2 0 0 0 -2,-2 z"/>
+</svg>
