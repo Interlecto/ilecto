@@ -43,6 +43,7 @@ Thompson) that isn't used here — the page sticks to system fonts.
 | Geo-Utils  | `https://geoutils.ilecto.app/`  | [geoutils](https://github.com/chlewey/geoutils) (Android app) |
 | QuickFixes | `https://quickfixes.ilecto.app/` | [quickfixes](https://github.com/chlewey/quickfixes) (Android app) |
 | Agenda Unificada | `https://agenda.ilecto.app/` | [agenda](https://github.com/Interlecto/agenda) (Android app) |
+| Dox-Mut    | `https://doxmut.ilecto.app/` | [doxmut](https://github.com/Interlecto/doxmut) (Android app) |
 
 This page evolves independently of those projects: entries are added or
 removed here as projects are launched or retired, without touching their
