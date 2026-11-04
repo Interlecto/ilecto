@@ -51,6 +51,9 @@ removed here as projects are launched or retired, without touching their
 own repositories. Each project is responsible for keeping its own
 `*.ilecto.app` subdomain correct and for linking back to `ilecto.app`.
 
+Ideas that span several projects, such as iOS portability, are tracked in
+[`docs/portfolio.md`](docs/portfolio.md). It isn't published with the site.
+
 ## Development
 
 Branches follow Interlecto's usual workflow: work happens on
