@@ -9,7 +9,7 @@ and let the git history of this file carry the older versions.
 
 ## iOS portability
 
-Checked: 2026-11-04, from each repository's docs, its branches, and the imports
+Checked: 2026-11-06, from each repository's docs, its branches, and the imports
 in its Kotlin code. File counts are a snapshot and will drift.
 
 ### Plans in place
@@ -17,7 +17,7 @@ in its Kotlin code. File counts are a snapshot and will drift.
 | App | Plan | Approach | Status |
 | --- | --- | --- | --- |
 | Novenario | In step with Android by December 2027, possibly much earlier (ROADMAP Phase 5) | Undecided; the roadmap recommends Kotlin Multiplatform for the logic and SwiftUI for the screens | Not started |
-| ProHo | One of three clients on a shared backend, alongside web and Android | Native Swift + SwiftUI, explicitly not Kotlin Multiplatform | Scaffolded on `develop/ios-shell` (app shell, `ProHoKit` package), not merged to `master`. TestFlight and App Store distribution is an open question in its roadmap |
+| ProHo | One of three clients on a shared backend, alongside web and Android | Native Swift + SwiftUI, explicitly not Kotlin Multiplatform | Scaffolded on `develop/ios-shell` (app shell, `ProHoKit` package), not merged to `master`. Builds run only in CI on macOS runners. TestFlight and App Store distribution is an open question in its roadmap |
 | Agenda Unificada | ROADMAP Phase 8, once Android and the data model are stable | Swift + SwiftUI | `ios/` placeholder only |
 
 ### No plan yet
@@ -43,7 +43,8 @@ in its Kotlin code. File counts are a snapshot and will drift.
 ### Shared prerequisites
 
 - Apple Developer Program: US$99 a year, one account for all apps.
-- A Mac with Xcode, owned or rented, since the main workstation runs Windows.
+- A Mac with Xcode, owned or rented, since the dev machines run Windows. ProHo's
+  CI builds on macOS runners, which covers compiling but not device testing.
 - A decision on enrolling as an individual or an organization, which sets the
   seller name shown on the App Store. An organization needs a legal entity and
   a D-U-N-S number.
@@ -53,8 +54,8 @@ in its Kotlin code. File counts are a snapshot and will drift.
 - **Shared Kotlin or native Swift?** Novenario leans towards Kotlin Multiplatform
   while ProHo and Agenda Unificada chose Swift. Mixing them means maintaining
   both toolchains.
-- **Shared accounting core?** ProHo's roadmap wants its accounting module to stay
-  compatible with Contarte. ProHo's choice of native Swift limits how much code
-  an iOS client could share with it.
+- **Shared accounting code?** ProHo and Contarte already share an API contract
+  (`docs/api-contract/` in Contarte), but ProHo's native Swift client limits how
+  much code an iOS Contarte could share with it.
 - **Does Agenda Unificada need Sign in with Apple?** It depends on whether Apple
   treats Google and Outlook sign-in as account login or as connecting calendars.
