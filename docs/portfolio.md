@@ -20,7 +20,7 @@ One Play Console developer account publishes every Interlecto Android app.
 - **Developer name:** Interlecto
 - **Description:** "Purposeful software, made with care."
 - **Website:** <https://ilecto.app>
-- **Verification:** profile verification was in progress on 2026-11-04.
+- **Verification:** profile verification was completed on 2026-11-06.
 
 Manage the account in the Play Console. Its URLs need a sign-in, so they aren't
 recorded here.

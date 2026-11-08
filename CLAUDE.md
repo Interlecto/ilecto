@@ -131,7 +131,11 @@ Hub icons are copies, so they need refreshing when a project's identity changes.
 - One Google Play developer account, "Interlecto", publishes all the apps.
   `docs/portfolio.md` tracks its public page, each app's application ID and its
   store descriptions. Update it when a listing changes. Profile verification was
-  in progress on 2026-11-04.
+  completed on 2026-11-06.
+- Before publishing an Android app on Google Play, read
+  `docs/google-play-release.md`: the lessons from Novenario's first release
+  (closed-test timing, application ID, signing, bundle language splits, policy
+  declarations, listing).
 
 ## ProHo and Contarte
 
