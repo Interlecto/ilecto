@@ -21,6 +21,9 @@ One Play Console developer account publishes every Interlecto Android app.
 - **Description:** "Purposeful software, made with care."
 - **Website:** <https://ilecto.app>
 - **Verification:** profile verification was completed on 2026-11-06.
+- **Page images:** `docs/icon-512.png` is the developer icon (Interlecto mark on
+  white, 512 × 512 24-bit PNG) and `docs/header-4096x2304.jpg` is the header (a
+  collage of the project icons, 4096 × 2304 JPEG, under 1 MB).
 
 Manage the account in the Play Console. Its URLs need a sign-in, so they aren't
 recorded here.
