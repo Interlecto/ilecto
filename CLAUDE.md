@@ -184,7 +184,5 @@ unknown origin). The fixmap KML editor comes last (Milestone 8).
 
 ## Open items
 
-- Branch `develop/portfolio-notes` (`docs/portfolio.md` and this file) needs
-  merging into `master`. No deploy is needed, since only `public/` is published.
 - `docs/portfolio.md` lists the open iOS questions. No Apple Developer enrollment
   is on record, and individual or organization is undecided.
