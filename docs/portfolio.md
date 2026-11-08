@@ -7,6 +7,50 @@ how the projects relate to each other.
 Update the "Checked" date when a section is reviewed against the repositories,
 and let the git history of this file carry the older versions.
 
+## Google Play
+
+Checked: 2026-11-07, from the public developer page and each repository's
+`applicationId` on its default branch.
+
+### Developer account
+
+One Play Console developer account publishes every Interlecto Android app.
+
+- **Public page:** <https://play.google.com/store/apps/dev?id=7398930896568131831>
+- **Developer name:** Interlecto
+- **Description:** "Purposeful software, made with care."
+- **Website:** <https://ilecto.app>
+- **Verification:** profile verification was in progress on 2026-11-04.
+
+Manage the account in the Play Console. Its URLs need a sign-in, so they aren't
+recorded here.
+
+### Apps
+
+The public page listed no apps when checked. The app grid may load through
+JavaScript, which the check didn't run, so confirm in the Console.
+
+| App | Application ID | Play status | Store short description |
+| --- | --- | --- | --- |
+| Novenario | `app.ilecto.novenario` | Not published | |
+| ProHo | `net.interlecto.proho` | Not published | |
+| Contarte | `net.interlecto.contarte` | Not published | |
+| Geo-Utils | `net.interlecto.geoutils` | Not published | |
+| QuickFixes | `com.example.quickfixes` | Not published | |
+| Agenda Unificada | `app.ilecto.agenda` | Not published | |
+| Dox-Mut | `app.ilecto.doxmut` | Not published | |
+
+Fill in the short description (80 characters at most on Play) once a store
+listing exists, in both ES and EN.
+
+### Open questions
+
+- **QuickFixes needs a real application ID.** Play rejects the `com.example`
+  prefix, and an ID can't change after the first upload.
+- **Which prefix?** Three apps use `app.ilecto.*` and three use
+  `net.interlecto.*`. Each app keeps its ID once published, so settle the
+  convention before the first upload of each.
+
 ## iOS portability
 
 Checked: 2026-11-06, from each repository's docs, its branches, and the imports

@@ -34,7 +34,9 @@ to each project's own site.
 - Before pushing or deploying, follow what the owner asked in the current
   conversation. They usually name the steps, for example "deploy, commit, push".
 - Never commit secrets, real release keystores or local configuration. This repo
-  is public, so don't add email addresses or account IDs either.
+  is public, so don't add email addresses or account IDs either. The exception is
+  an ID already shown in a public store URL, such as the Google Play developer
+  page. Console and dashboard URLs stay out.
 
 ## Projects
 
@@ -126,7 +128,10 @@ Hub icons are copies, so they need refreshing when a project's identity changes.
   builds from any machine as the same app. Release keys never go in a repo.
 - The owner works from two Windows machines, so SDK paths and Git identity can
   differ. `local.properties` is not in git. Novenario's `CLAUDE.md` has the details.
-- Google Play Console profile verification was in progress on 2026-11-04.
+- One Google Play developer account, "Interlecto", publishes all the apps.
+  `docs/portfolio.md` tracks its public page, each app's application ID and its
+  store descriptions. Update it when a listing changes. Profile verification was
+  in progress on 2026-11-04.
 
 ## ProHo and Contarte
 
