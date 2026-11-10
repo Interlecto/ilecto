@@ -7,7 +7,7 @@ for cross-project ideas such as iOS portability.
 
 These notes consolidate the local Claude Code memories as of 2026-11-06, checked
 against the repositories that day. A project's own `CLAUDE.md` wins over this
-file for that project (Novenario, ProHo and Contarte have one). Statuses move
+file for that project; every project has one. Statuses move
 fast, so check the repository before relying on one.
 
 ## This repository
@@ -51,6 +51,11 @@ to each project's own site.
 | Agenda Unificada | `C:\Temp\agenda` | `Interlecto/agenda` | Public | `master` | `agenda.ilecto.app` | `agenda-site` |
 | Dox-Mut | `C:\Temp\doxmut` | `Interlecto/doxmut` | Private | `main` | `doxmut.ilecto.app` | `doxmut-landing` |
 | Extension Icons | `C:\Temp\extension-icons` | `chlewey/extension-icons` | Public | `master` | `extension-icons.ilecto.app` | `extension-icons-site` |
+| Key Assign | `C:\Temp\keyassign` | `chlewey/keyassign` | Public | `master` | None yet (`keyassign.ilecto.app` planned) | None yet |
+
+Key Assign (Windows keyboard layout editor, started 2026-11-10) has no site yet,
+so it isn't on the hub page or in `README.md`. Add it with "Adding a project to
+the hub" below once its landing page is live.
 
 Many repos are under the personal `chlewey` account rather than the `Interlecto`
 org, so check the table rather than guessing. Local checkouts are often on a
@@ -126,6 +131,10 @@ Hub icons are copies, so they need refreshing when a project's identity changes.
   `android`, the standard debug values), wired into `signingConfigs.debug` through
   `rootProject.file(...)`. Do this from the first commit, so test devices accept
   builds from any machine as the same app. Release keys never go in a repo.
+  Contarte, QuickFixes, Agenda Unificada and Dox-Mut share one key (SHA-1
+  `EA:38:F3:95:…:F7:BF:FD:D2`), which is also the one registered for Agenda's
+  OAuth clients. Geo-Utils and ProHo each have their own. For a new app, copy
+  Contarte's.
 - The owner works from two Windows machines, so SDK paths and Git identity can
   differ. `local.properties` is not in git. Novenario's `CLAUDE.md` has the details.
 - One Google Play developer account, "Interlecto", publishes all the apps.
@@ -190,6 +199,33 @@ features to reimplement in Kotlin, marked *(from …)* in its roadmap.
 `kml2svg/Continents.kml` is the owner's own CC0 work and may be bundled. Don't
 bundle third-party data from those repos (GADM boundaries, other country KMLs of
 unknown origin). The fixmap KML editor comes last (Milestone 8).
+
+## Continuing from another machine or account
+
+Each project's `CLAUDE.md` links here and holds that project's own rules.
+Claude Code memories stay on the machine that wrote them, so record lasting
+rules in a `CLAUDE.md`, not only in memory. Switching Claude accounts on the same
+machine keeps the repos, memories and local tool logins, but connectors added on
+claude.ai have to be connected again in the new account.
+
+Access only the owner can grant:
+
+- **GitHub:** push to both `chlewey` and `Interlecto`. Novenario, Contarte,
+  QuickFixes and Dox-Mut are private. Check with `gh auth status`.
+- **Cloudflare:** the account holding the `ilecto.app` zone. Check with
+  `npx wrangler whoami`.
+- **Google Play Console:** an invitation to the "Interlecto" developer account.
+- **Agenda Unificada OAuth:** the Google and Microsoft client IDs go in
+  `local.properties`; see its `docs/SETUP_OAUTH.md`.
+
+Files outside git, to pass over a secure channel: Novenario's
+`keystore.properties`, release key, `play-account.properties` and `private/`
+(see its `CLAUDE.md`), and each project's `local.properties`.
+
+Tools: JDK 17 and the Android SDK for the Android apps; Node LTS for the sites;
+.NET 8 for the Windows apps, plus Inno Setup for Extension Icons. iOS builds need
+a Mac or CI macOS runners. Clone the repos to the paths in the project table, or
+update the table.
 
 ## Open items
 
