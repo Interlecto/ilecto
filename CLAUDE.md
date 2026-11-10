@@ -7,7 +7,7 @@ for cross-project ideas such as iOS portability.
 
 These notes consolidate the local Claude Code memories as of 2026-11-06, checked
 against the repositories that day. A project's own `CLAUDE.md` wins over this
-file for that project (Novenario, ProHo and Contarte have one). Statuses move
+file for that project; every project has one. Statuses move
 fast, so check the repository before relying on one.
 
 ## This repository
@@ -51,6 +51,11 @@ to each project's own site.
 | Agenda Unificada | `C:\Temp\agenda` | `Interlecto/agenda` | Public | `master` | `agenda.ilecto.app` | `agenda-site` |
 | Dox-Mut | `C:\Temp\doxmut` | `Interlecto/doxmut` | Private | `main` | `doxmut.ilecto.app` | `doxmut-landing` |
 | Extension Icons | `C:\Temp\extension-icons` | `chlewey/extension-icons` | Public | `master` | `extension-icons.ilecto.app` | `extension-icons-site` |
+| Key Assign | `C:\Temp\keyassign` | `chlewey/keyassign` | Public | `master` | None yet (`keyassign.ilecto.app` planned) | None yet |
+
+Key Assign (Windows keyboard layout editor, started 2026-11-10) has no site yet,
+so it isn't on the hub page or in `README.md`. Add it with "Adding a project to
+the hub" below once its landing page is live.
 
 Many repos are under the personal `chlewey` account rather than the `Interlecto`
 org, so check the table rather than guessing. Local checkouts are often on a
@@ -218,7 +223,7 @@ Files outside git, to pass over a secure channel: Novenario's
 (see its `CLAUDE.md`), and each project's `local.properties`.
 
 Tools: JDK 17, the Android SDK and Node LTS for all projects; .NET 8 and Inno
-Setup for Extension Icons. iOS builds need a Mac or CI macOS runners. Clone the
+Setup for Extension Icons; .NET 8 for Key Assign. iOS builds need a Mac or CI macOS runners. Clone the
 repos to the paths in the project table, or update the table.
 
 ## Open items
