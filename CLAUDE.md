@@ -222,9 +222,10 @@ Files outside git, to pass over a secure channel: Novenario's
 `keystore.properties`, release key, `play-account.properties` and `private/`
 (see its `CLAUDE.md`), and each project's `local.properties`.
 
-Tools: JDK 17, the Android SDK and Node LTS for all projects; .NET 8 and Inno
-Setup for Extension Icons; .NET 8 for Key Assign. iOS builds need a Mac or CI macOS runners. Clone the
-repos to the paths in the project table, or update the table.
+Tools: JDK 17 and the Android SDK for the Android apps; Node LTS for the sites;
+.NET 8 for the Windows apps, plus Inno Setup for Extension Icons. iOS builds need
+a Mac or CI macOS runners. Clone the repos to the paths in the project table, or
+update the table.
 
 ## Open items
 
