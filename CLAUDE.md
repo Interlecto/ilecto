@@ -51,11 +51,7 @@ to each project's own site.
 | Agenda Unificada | `C:\Temp\agenda` | `Interlecto/agenda` | Public | `master` | `agenda.ilecto.app` | `agenda-site` |
 | Dox-Mut | `C:\Temp\doxmut` | `Interlecto/doxmut` | Private | `main` | `doxmut.ilecto.app` | `doxmut-landing` |
 | Extension Icons | `C:\Temp\extension-icons` | `chlewey/extension-icons` | Public | `master` | `extension-icons.ilecto.app` | `extension-icons-site` |
-| Key Assign | `C:\Temp\keyassign` | `chlewey/keyassign` | Public | `master` | None yet (`keyassign.ilecto.app` planned) | None yet |
-
-Key Assign (Windows keyboard layout editor, started 2026-11-10) has no site yet,
-so it isn't on the hub page or in `README.md`. Add it with "Adding a project to
-the hub" below once its landing page is live.
+| Key Assign | `C:\Temp\keyassign` | `chlewey/keyassign` | Public | `master` | `keyassign.ilecto.app` | `keyassign-site` |
 
 Many repos are under the personal `chlewey` account rather than the `Interlecto`
 org, so check the table rather than guessing. Local checkouts are often on a

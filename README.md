@@ -45,6 +45,7 @@ Thompson) that isn't used here — the page sticks to system fonts.
 | Agenda Unificada | `https://agenda.ilecto.app/` | [agenda](https://github.com/Interlecto/agenda) (Android app) |
 | Dox-Mut    | `https://doxmut.ilecto.app/` | [doxmut](https://github.com/Interlecto/doxmut) (Android app) |
 | Extension Icons | `https://extension-icons.ilecto.app/` | [extension-icons](https://github.com/chlewey/extension-icons) (Windows app) |
+| Key Assign | `https://keyassign.ilecto.app/` | [keyassign](https://github.com/chlewey/keyassign) (Windows app) |
 
 This page evolves independently of those projects: entries are added or
 removed here as projects are launched or retired, without touching their
