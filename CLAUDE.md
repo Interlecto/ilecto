@@ -46,7 +46,7 @@ to each project's own site.
 | Novenario | `C:\Temp\Novenario` | `chlewey/Novenario` | Private | `master` | `novenario.ilecto.app` | `novenario-site` |
 | ProHo | `C:\temp\proho` | `Interlecto/proho` | Public | `master` | `proho.ilecto.app` | `proho-site` |
 | Contarte | `C:\Temp\Contarte` | `chlewey/Contarte` | Private | `main` | `contarte.ilecto.app` | `contarte-landing` |
-| Geo-Utils | `~/geoutils` | `chlewey/geoutils` | Public | `main` | `geoutils.ilecto.app` | `geoutils-site` |
+| Geo-Utils | `C:\Temp\geoutils` | `chlewey/geoutils` | Public | `main` | `geoutils.ilecto.app` | `geoutils-site` |
 | QuickFixes | `C:\Temp\quickfixes` | `chlewey/quickfixes` | Private | `master` | `quickfixes.ilecto.app` | `quickfixes-site` |
 | Agenda Unificada | `C:\Temp\agenda` | `Interlecto/agenda` | Public | `master` | `agenda.ilecto.app` | `agenda-site` |
 | Dox-Mut | `C:\Temp\doxmut` | `Interlecto/doxmut` | Private | `main` | `doxmut.ilecto.app` | `doxmut-landing` |
@@ -57,8 +57,7 @@ Many repos are under the personal `chlewey` account rather than the `Interlecto`
 org, so check the table rather than guessing. Local checkouts are often on a
 feature branch, so read `origin/<default>` when you need the current state.
 
-The Geo-Utils worker name comes from earlier notes; every other name was read
-from that repo's `wrangler` config.
+Every worker name was read from that repo's `wrangler` config.
 
 ## Git workflow
 
